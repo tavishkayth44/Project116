@@ -1,0 +1,20 @@
+label{
+    font-size: larger;
+}
+
+btn-success:hover{
+    background-color: blueviolet;
+}
+
+canvas {
+    animation-name : Tavish;
+    animation-duration : 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes Tavish {
+    from {box-shadow : 1px 1px 100px red;}
+    to {box-shadow : 1px 1px 100px blue;}
+
+}
